@@ -9,9 +9,9 @@ import 'package:jardinains/elements/jardinain.dart';
 import 'package:jardinains/elements/obstacle.dart';
 
 const _MODES = [
-  [5, "Easy"],
-  [7, "Medium"],
-  [8, "Hard"]
+  [2, "Easy"],
+  [3, "Medium"],
+  [4, "Hard"]
 ];
 
 class GameView extends StatefulWidget {
@@ -34,7 +34,7 @@ class _GameViewState extends State<GameView> {
   Timer? timer;
   bool launched = false, finishing = false, reviving = false, firstGame = true;
   bool blast = false;
-  int mode = 5, health = 3, score = 0, prevScore = 0, singleShotKills = 0;
+  int mode = 2, health = 3, score = 0, prevScore = 0, singleShotKills = 0;
   bool isMobile = false;
   List<Jardinain> fallingJardinains = [];
   List<Obstacle> obstacles = [];
