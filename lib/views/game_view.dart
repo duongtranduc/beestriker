@@ -283,7 +283,7 @@ class _GameViewState extends State<GameView> {
                             crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
                               Text(
-                                "Jardinains!",
+                                "Striker Bee",
                                 style: TextStyle(
                                     fontSize: isMobile ? 45 : 74, fontWeight: FontWeight.bold, color: Colors.green, shadows: [BoxShadow(color: Colors.black, blurRadius: 1, spreadRadius: 5)]),
                               ),
